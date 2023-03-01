@@ -10,7 +10,7 @@ type
 # var sampledns  = Dns(name:"dnsname",dns:"")
 let default: Dns = Dns(name:"default",dns:"nameserver 10.104.88.8\nnameserver 10.104.88.9")
 let shecan: Dns  = Dns(name:"shecan",dns:"nameserver 178.22.122.100\nnameserver 185.51.200.2")
-let online403: Dns  = Dns(name:"403",dns:"nameserve 10.202.10.202\nnameserver 10.202.10.102")
+let online403: Dns  = Dns(name:"403",dns:"nameserver 10.202.10.202\nnameserver 10.202.10.102")
 
 var dns_list: DnsList
 dns_list = @[default,shecan , online403]
